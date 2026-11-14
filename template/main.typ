@@ -10,11 +10,12 @@
 ) = entrypoint(
 	dark-mode: true,
 	debug: true,
+	mirror-top-items: false,
 )
 
 #show: template
 
-#profile-picture()
+#profile-picture(path("./lain.jpg"))
 
 #contact-items(
 	(text: "GitHub", url: "https://github.com/wetfloo"),

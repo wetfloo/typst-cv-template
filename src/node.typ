@@ -104,10 +104,14 @@
 }
 
 #let profile-picture(
-	path: path(""),
-	align-direction: left,
+	path,
+	align-direction: top + left,
 ) = {
-	set align(left)
-
-	image(path)
+	place(
+		align-direction,
+		image(
+			height: 64pt,
+			path,
+		)
+	)
 }
