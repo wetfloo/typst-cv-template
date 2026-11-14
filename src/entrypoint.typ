@@ -34,5 +34,6 @@
 		invisible-text: invisible-text,
 		invisible-paragraph: invisible-paragraph,
 		template: template,
+		profile-picture: profile-picture,
 	)
 }

@@ -6,12 +6,15 @@
 	invisible-text,
 	invisible-paragraph,
 	template,
+	profile-picture,
 ) = entrypoint(
 	dark-mode: true,
 	debug: true,
 )
 
 #show: template
+
+#profile-picture()
 
 #contact-items(
 	(text: "GitHub", url: "https://github.com/wetfloo"),

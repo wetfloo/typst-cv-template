@@ -102,3 +102,12 @@
 		]
 	}
 }
+
+#let profile-picture(
+	path: path(""),
+	align-direction: left,
+) = {
+	set align(left)
+
+	image(path)
+}
