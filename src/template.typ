@@ -49,7 +49,7 @@
 						top: if lvl-1-heading-counter.get().first() <= 1 {
 							0pt
 						} else {
-							1pt
+							0pt
 						},
 					),
 				)
