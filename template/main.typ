@@ -31,4 +31,10 @@ this is some content with #invisible-text[invisible text] and some other text on
 
 #invisible-paragraph[invisible text shouldn't be able to take up much space otherwise]
 
-and this is another paragraph
+and this is another paragraph with some `monospace text` inside of it, and a code block below:
+
+```rust
+fn main() {
+    println!("Hello, world!");
+}
+```
