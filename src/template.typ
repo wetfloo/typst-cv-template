@@ -15,7 +15,8 @@
 	)
 
 	set text(
-		font: "Publico Text",
+		font: "Source Serif 4",
+		fallback: false,
 		size: 10pt,
 		style: "normal",
 		weight: "regular",
@@ -33,7 +34,7 @@
 			context {
 				set align(center)
 				set text(
-					font: "Publico Headline",
+					font: "Fira Sans",
 					size: 20pt,
 					style: "normal",
 					weight: "bold",
@@ -57,8 +58,8 @@
 		.where(level: 2): content => {
 			set align(start)
 			set text(
-				font: "Avenir Next",
-				size: 11pt,
+				font: "Fira Sans",
+				size: 12pt,
 				style: "normal",
 				weight: "semibold",
 			)
