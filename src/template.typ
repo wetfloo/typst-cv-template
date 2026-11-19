@@ -44,7 +44,7 @@
 					weight: "bold",
 				)
 				set block(
-					spacing: 1.3em,
+					spacing: 1em,
 					inset: block.inset + (
 						top: if lvl-1-heading-counter.get().first() <= 1 {
 							0pt
