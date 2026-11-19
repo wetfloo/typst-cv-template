@@ -45,13 +45,7 @@
 				)
 				set block(
 					spacing: 1em,
-					inset: block.inset + (
-						top: if lvl-1-heading-counter.get().first() <= 1 {
-							0pt
-						} else {
-							0pt
-						},
-					),
+					inset: block.inset,
 				)
 
 				content
