@@ -23,6 +23,10 @@
 		fill: fg,
 		hyphenate: false,
 	)
+	show raw: set text(
+		font: "Source Code Pro",
+		size: 1.25em,
+	)
 
 	show link: underline
 
