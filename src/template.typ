@@ -39,7 +39,7 @@
 				set align(center)
 				set text(
 					font: "Fira Sans",
-					size: 20pt,
+					size: 18pt,
 					style: "normal",
 					weight: "bold",
 				)
